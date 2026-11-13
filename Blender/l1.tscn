@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://cbxcn5ldtux2c"]
+
+[ext_resource type="PackedScene" uid="uid://h8ima2xp3wta" path="res://Blender/l1.blend" id="1_wxltx"]
+
+[node name="l1" unique_id=2020223971 instance=ExtResource("1_wxltx")]

@@ -1,0 +1,172 @@
+[gd_scene format=3 uid="uid://b8uii2wr7tggx"]
+
+[ext_resource type="PackedScene" uid="uid://cxximqjj7a67c" path="res://Blender/l2.tscn" id="1_iko84"]
+[ext_resource type="LightmapGIData" uid="uid://bmc5uojws6t6m" path="res://Lightmaps/MALLF2.lmbake" id="2_iko84"]
+[ext_resource type="PackedScene" uid="uid://bmeffbgikrik" path="res://Blender/escalator.tscn" id="3_f825j"]
+
+[sub_resource type="Environment" id="Environment_bknu2"]
+ambient_light_source = 1
+tonemap_mode = 4
+ssr_enabled = true
+ssao_enabled = true
+ssil_enabled = true
+adjustment_enabled = true
+adjustment_contrast = 1.1
+adjustment_saturation = 1.1
+
+[node name="MALLF2" type="Node3D" unique_id=1367337652]
+
+[node name="Model" parent="." unique_id=1797992105 instance=ExtResource("1_iko84")]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1618334886]
+environment = SubResource("Environment_bknu2")
+
+[node name="Lights" type="Node3D" parent="." unique_id=1302572232]
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Lights" unique_id=1950462926]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.5, 2, 0)
+light_energy = 0.1
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.01
+omni_range = 10.0
+
+[node name="OmniLight3D9" type="OmniLight3D" parent="Lights" unique_id=283003732]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
+light_energy = 0.1
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.01
+omni_range = 10.0
+
+[node name="OmniLight3D13" type="OmniLight3D" parent="Lights" unique_id=657665686]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 2, 0)
+light_energy = 0.1
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.01
+omni_range = 10.0
+
+[node name="OmniLight3D14" type="OmniLight3D" parent="Lights" unique_id=736843111]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 2, 0)
+light_energy = 0.1
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.01
+omni_range = 10.0
+
+[node name="OmniLight3D12" type="OmniLight3D" parent="Lights" unique_id=1979485340]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, -8)
+light_energy = 0.1
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.01
+omni_range = 10.0
+
+[node name="OmniLight3D10" type="OmniLight3D" parent="Lights" unique_id=1018299614]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 8)
+light_energy = 0.1
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.01
+omni_range = 10.0
+
+[node name="OmniLight3D7" type="OmniLight3D" parent="Lights" unique_id=66770504]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -38, 2, 0)
+light_energy = 0.1
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.01
+omni_range = 10.0
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="Lights" unique_id=1314807796]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.5, 2, 0)
+light_energy = 0.1
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.01
+omni_range = 10.0
+
+[node name="OmniLight3D8" type="OmniLight3D" parent="Lights" unique_id=1942868483]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 38, 2, 0)
+light_energy = 0.1
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.01
+omni_range = 10.0
+
+[node name="OmniLight3D15" type="OmniLight3D" parent="Lights" unique_id=726640361]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 38, 2, -8)
+light_energy = 0.1
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.01
+omni_range = 10.0
+
+[node name="OmniLight3D16" type="OmniLight3D" parent="Lights" unique_id=1045115975]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 38, 2, 8)
+light_energy = 0.1
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.01
+omni_range = 10.0
+
+[node name="OmniLight3D17" type="OmniLight3D" parent="Lights" unique_id=538123459]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -38, 2, 8)
+light_energy = 0.1
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.01
+omni_range = 10.0
+
+[node name="OmniLight3D18" type="OmniLight3D" parent="Lights" unique_id=2014334243]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -38, 2, -8)
+light_energy = 0.1
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.01
+omni_range = 10.0
+
+[node name="OmniLight3D3" type="OmniLight3D" parent="Lights" unique_id=649403088]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 2, -8)
+light_energy = 0.1
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.01
+omni_range = 10.0
+
+[node name="OmniLight3D4" type="OmniLight3D" parent="Lights" unique_id=1281680411]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 2, -8)
+light_energy = 0.1
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.01
+omni_range = 10.0
+
+[node name="OmniLight3D5" type="OmniLight3D" parent="Lights" unique_id=1714692982]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20, 2, 8)
+light_energy = 0.1
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.01
+omni_range = 10.0
+
+[node name="OmniLight3D6" type="OmniLight3D" parent="Lights" unique_id=376037286]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 2, 8)
+light_energy = 0.1
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.01
+omni_range = 10.0
+
+[node name="LightmapGI" type="LightmapGI" parent="." unique_id=266990716]
+bounces = 16
+bias = 0.01
+generate_probes_subdiv = 4
+light_data = ExtResource("2_iko84")
+
+[node name="escalator4" parent="." unique_id=1268371275 instance=ExtResource("3_f825j")]
+transform = Transform3D(-1, -1.4894305e-09, -1.3909066e-08, -1.489429e-09, 1, -1.131334e-08, 1.3909066e-08, -1.131334e-08, -1, -1.5, 0, 0)
+
+[node name="escalator3" parent="." unique_id=477666582 instance=ExtResource("3_f825j")]
+transform = Transform3D(-1, 0, 2.6226834e-07, 0, 1, 0, -2.6226834e-07, 0, -1, 1.5, 0, 0)

@@ -1,0 +1,11 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+/posters/
+
+# Blender backups
+*.blend1
+*.blend2
+
+# Godot editor temp saves
+*.tmp

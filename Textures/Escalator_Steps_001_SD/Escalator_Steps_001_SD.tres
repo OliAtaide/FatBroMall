@@ -1,0 +1,24 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://60pj55nfbl0q"]
+
+[ext_resource type="Texture2D" uid="uid://dnoh2lye0fbc4" path="res://Textures/Escalator_Steps_001_SD/Escalator_Steps_001_basecolor.png" id="1_03gdr"]
+[ext_resource type="Texture2D" uid="uid://hi61gmnib35f" path="res://Textures/Escalator_Steps_001_SD/Escalator_Steps_001_ambientOcclusion.png" id="2_kxr6v"]
+[ext_resource type="Texture2D" uid="uid://csqxtg3wfs7qq" path="res://Textures/Escalator_Steps_001_SD/Escalator_Steps_001_height.png" id="3_rm5lr"]
+[ext_resource type="Texture2D" uid="uid://cyrqni54d0ftt" path="res://Textures/Escalator_Steps_001_SD/Escalator_Steps_001_metallic.png" id="4_w7oca"]
+[ext_resource type="Texture2D" uid="uid://7uuw0h3jyg5j" path="res://Textures/Escalator_Steps_001_SD/Escalator_Steps_001_normal.png" id="5_hkmju"]
+[ext_resource type="Texture2D" uid="uid://dhbfns416xi80" path="res://Textures/Escalator_Steps_001_SD/Escalator_Steps_001_roughness.png" id="6_muwnx"]
+
+[resource]
+albedo_texture = ExtResource("1_03gdr")
+metallic = 1.0
+metallic_texture = ExtResource("4_w7oca")
+roughness_texture = ExtResource("6_muwnx")
+normal_enabled = true
+normal_texture = ExtResource("5_hkmju")
+ao_enabled = true
+ao_texture = ExtResource("2_kxr6v")
+heightmap_enabled = true
+heightmap_scale = 1.0
+heightmap_deep_parallax = true
+heightmap_min_layers = 8
+heightmap_max_layers = 32
+heightmap_texture = ExtResource("3_rm5lr")

@@ -1,0 +1,22 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://rpljlvwo2qya"]
+
+[ext_resource type="Shader" uid="uid://lha238ix2q3l" path="res://Shaders/glass_dispersion.gdshader" id="1_vm88t"]
+[ext_resource type="Texture2D" uid="uid://ynb41wh6e361" path="res://Textures/SurfaceImperfections001_1K-JPG/SurfaceImperfections001_1K-JPG_NormalGL.jpg" id="2_d1a3m"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_vm88t")
+shader_parameter/tint = Color(1, 1, 1, 1)
+shader_parameter/roughness = 0.02
+shader_parameter/specular_amt = 0.5
+shader_parameter/ior = 1.45
+shader_parameter/refraction = 0.06
+shader_parameter/dispersion = 0.05
+shader_parameter/opacity = 1.0
+shader_parameter/edge_opacity = 1.0
+shader_parameter/edge_falloff = 3.0
+shader_parameter/edge_tint = Color(1, 1, 1, 1)
+shader_parameter/use_normal_map = false
+shader_parameter/normal_map = ExtResource("2_d1a3m")
+shader_parameter/normal_scale = Vector2(1, 1)
+shader_parameter/normal_strength = 1.0

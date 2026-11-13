@@ -1,0 +1,19 @@
+[gd_resource type="StandardMaterial3D" load_steps=5 format=3 uid="uid://cptd1fcxbrk4r"]
+
+[ext_resource type="Texture2D" uid="uid://cc2i1tkkxk7if" path="res://Textures/Rubber004/Rubber004_1K-JPG_Color.jpg" id="1_0q3qs"]
+[ext_resource type="Texture2D" uid="uid://uluvinrpx5s0" path="res://Textures/Rubber004/Rubber004_1K-JPG_Displacement.jpg" id="2_h2h5r"]
+[ext_resource type="Texture2D" uid="uid://dpbqkxxkw6qdj" path="res://Textures/Rubber004/Rubber004_1K-JPG_NormalGL.jpg" id="3_sh56v"]
+[ext_resource type="Texture2D" uid="uid://qpca5yt5wfsd" path="res://Textures/Rubber004/Rubber004_1K-JPG_Roughness.jpg" id="4_27pdg"]
+
+[resource]
+albedo_texture = ExtResource("1_0q3qs")
+roughness_texture = ExtResource("4_27pdg")
+emission_enabled = true
+normal_enabled = true
+normal_texture = ExtResource("3_sh56v")
+heightmap_enabled = true
+heightmap_scale = 1.0
+heightmap_deep_parallax = true
+heightmap_min_layers = 8
+heightmap_max_layers = 32
+heightmap_texture = ExtResource("2_h2h5r")

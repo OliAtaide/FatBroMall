@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://bmeffbgikrik"]
+
+[ext_resource type="PackedScene" uid="uid://glxqebqh8a1c" path="res://Blender/escalator.blend" id="1_vm11a"]
+
+[node name="escalator" unique_id=1268371275 instance=ExtResource("1_vm11a")]

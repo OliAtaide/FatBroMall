@@ -1,0 +1,136 @@
+[gd_scene format=3 uid="uid://dvuaiq2q4wf6f"]
+
+[ext_resource type="PackedScene" uid="uid://cbxcn5ldtux2c" path="res://Blender/l1.tscn" id="1_b4rsl"]
+[ext_resource type="PackedScene" uid="uid://bmeffbgikrik" path="res://Blender/escalator.tscn" id="2_xre00"]
+[ext_resource type="LightmapGIData" uid="uid://btdqoxrsmn2af" path="res://Lightmaps/MALLL1.lmbake" id="3_m0e2l"]
+[ext_resource type="PackedScene" uid="uid://mxh77hqs3tci" path="res://Blender/cloth_store.tscn" id="4_vf15l"]
+
+[sub_resource type="Environment" id="Environment_k1mfq"]
+background_energy_multiplier = 0.0
+ambient_light_source = 1
+reflected_light_source = 1
+tonemap_mode = 4
+ssao_enabled = true
+ssil_enabled = true
+adjustment_enabled = true
+adjustment_contrast = 1.1
+adjustment_saturation = 1.1
+
+[node name="MALLF1" type="Node3D" unique_id=1754695927]
+
+[node name="Model" parent="." unique_id=2020223971 instance=ExtResource("1_b4rsl")]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1877873155]
+environment = SubResource("Environment_k1mfq")
+
+[node name="Lights" type="Node3D" parent="." unique_id=1656447075]
+visible = false
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Lights" unique_id=1347418732]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
+light_energy = 0.1
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.01
+omni_range = 20.0
+omni_attenuation = 0.25
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="Lights" unique_id=399637449]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36, 2, 6)
+light_energy = 0.1
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.01
+omni_range = 20.0
+omni_attenuation = 0.25
+
+[node name="OmniLight3D3" type="OmniLight3D" parent="Lights" unique_id=657923222]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36, 2, -6)
+light_energy = 0.1
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.01
+omni_range = 20.0
+omni_attenuation = 0.25
+
+[node name="OmniLight3D4" type="OmniLight3D" parent="Lights" unique_id=2122687369]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36, 2, 6)
+light_energy = 0.1
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.01
+omni_range = 20.0
+omni_attenuation = 0.25
+
+[node name="OmniLight3D5" type="OmniLight3D" parent="Lights" unique_id=2059407859]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36, 2, -6)
+light_energy = 0.1
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.01
+omni_range = 20.0
+omni_attenuation = 0.25
+
+[node name="OmniLight3D6" type="OmniLight3D" parent="Lights" unique_id=838312031]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 2, 6)
+light_energy = 0.1
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.01
+omni_range = 20.0
+omni_attenuation = 0.25
+
+[node name="OmniLight3D7" type="OmniLight3D" parent="Lights" unique_id=1767464187]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18, 2, -6)
+light_energy = 0.1
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.01
+omni_range = 20.0
+omni_attenuation = 0.25
+
+[node name="OmniLight3D8" type="OmniLight3D" parent="Lights" unique_id=1794653031]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18, 2, 6)
+light_energy = 0.1
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.01
+omni_range = 20.0
+omni_attenuation = 0.25
+
+[node name="OmniLight3D9" type="OmniLight3D" parent="Lights" unique_id=1512698732]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18, 2, -6)
+light_energy = 0.1
+light_bake_mode = 1
+shadow_enabled = true
+shadow_bias = 0.01
+omni_range = 20.0
+omni_attenuation = 0.25
+
+[node name="escalator" parent="." unique_id=1268371275 instance=ExtResource("2_xre00")]
+transform = Transform3D(1, 1.4894296e-09, -7.351371e-08, -1.489429e-09, 1, -1.131334e-08, 7.351371e-08, 1.131334e-08, 1, 28, 0, 0)
+
+[node name="escalator2" parent="." unique_id=1351192423 instance=ExtResource("2_xre00")]
+transform = Transform3D(-1, 0, 2.6226832e-07, 0, 1, 0, -2.6226832e-07, 0, -1, 32, 0, 0)
+
+[node name="escalator3" parent="." unique_id=1929931471 instance=ExtResource("2_xre00")]
+transform = Transform3D(1, 1.4894274e-09, -2.4835924e-07, -1.489429e-09, 1, -1.131334e-08, 2.4835924e-07, 1.131334e-08, 1, -28, 0, 0)
+
+[node name="escalator4" parent="." unique_id=497635090 instance=ExtResource("2_xre00")]
+transform = Transform3D(-1, 0, 4.371139e-07, 0, 1, 0, -4.371139e-07, 0, -1, -32, 0, 0)
+
+[node name="LightmapGI" type="LightmapGI" parent="." unique_id=233557811]
+bounces = 16
+directional = true
+bias = 0.01
+generate_probes_subdiv = 4
+light_data = ExtResource("3_m0e2l")
+
+[node name="ReflectionProbe" type="ReflectionProbe" parent="." unique_id=967574993]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0)
+size = Vector3(77, 5, 17)
+interior = true
+enable_shadows = true
+
+[node name="cloth_store" parent="." unique_id=471195122 instance=ExtResource("4_vf15l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -9)

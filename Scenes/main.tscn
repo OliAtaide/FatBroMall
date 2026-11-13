@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://crg3cdkilg7ex"]
+
+[ext_resource type="PackedScene" uid="uid://dvuaiq2q4wf6f" path="res://Scenes/MALLF1.tscn" id="1_bo1nx"]
+[ext_resource type="PackedScene" uid="uid://b8uii2wr7tggx" path="res://Scenes/MALLF2.tscn" id="2_8gbba"]
+[ext_resource type="PackedScene" uid="uid://cmgj1lq4mae4l" path="res://Scenes/MALLF3.tscn" id="3_8gbba"]
+
+[node name="Main" type="Node3D" unique_id=1255646773]
+
+[node name="Malll1" parent="." unique_id=1754695927 instance=ExtResource("1_bo1nx")]
+
+[node name="MALLF2" parent="." unique_id=1367337652 instance=ExtResource("2_8gbba")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 0)
+
+[node name="MALLF3" parent="." unique_id=1516380028 instance=ExtResource("3_8gbba")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10, 0)

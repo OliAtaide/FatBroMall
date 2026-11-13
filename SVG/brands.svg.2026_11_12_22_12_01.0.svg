@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   sodipodi:docname="brands.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.7385171"
+     inkscape:cx="204.46378"
+     inkscape:cy="443.45622"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1072"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3">
+      <rect
+         style="fill:#bf4080;fill-opacity:1;stroke-width:2.11667"
+         id="rect3"
+         width="127"
+         height="63.500004"
+         x="0"
+         y="0" />
+      <g
+         id="g2"
+         transform="translate(19.049999,17.197918)"
+         style="fill:#ffffff">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:25.4px;font-family:Impact;-inkscape-font-specification:'Impact Condensed';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;stroke-width:2.11667"
+           x="44.474804"
+           y="24.172167"
+           id="text1"><tspan
+             sodipodi:role="line"
+             id="tspan1"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';fill:#ffffff;fill-opacity:1;stroke-width:2.11667"
+             x="44.474804"
+             y="24.172167">SHOCKER!!</tspan></text>
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke-width:2.11667"
+           id="rect1"
+           width="88.900002"
+           height="2.6458333"
+           x="0"
+           y="0" />
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke-width:2.11667"
+           id="rect2"
+           width="88.900002"
+           height="2.6458333"
+           x="-9.4994903e-08"
+           y="26.458334" />
+      </g>
+    </g>
+    <g
+       id="g7">
+      <rect
+         style="fill:#206020;fill-opacity:1;stroke-width:2.11667"
+         id="rect4"
+         width="158.75"
+         height="39.6875"
+         x="0"
+         y="63.500004" />
+      <path
+         id="rect7"
+         style="fill:#606020;fill-opacity:1;stroke-width:2.11667"
+         d="M 100.54167,63.500004 H 158.75 V 103.1875 H 60.85417 Z"
+         sodipodi:nodetypes="ccccc" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-stretch:condensed;font-size:25.4px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;stroke-width:2.11667"
+         x="78.358994"
+         y="88.931763"
+         id="text2"><tspan
+           sodipodi:role="line"
+           id="tspan2"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Dancing Script';-inkscape-font-specification:'Dancing Script Bold';fill:#ffffff;stroke-width:2.11667"
+           x="78.358994"
+           y="88.931763">Brazilian Bay</tspan></text>
+      <rect
+         style="fill:#ffffff;stroke-width:2.11667"
+         id="rect5"
+         width="31.75"
+         height="1.3229166"
+         x="13.46196"
+         y="93.356758" />
+      <rect
+         style="fill:#ffffff;stroke-width:2.11667"
+         id="rect6"
+         width="74.083336"
+         height="1.3229166"
+         x="57.438736"
+         y="93.356758" />
+    </g>
+  </g>
+</svg>

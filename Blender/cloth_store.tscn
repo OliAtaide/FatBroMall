@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://mxh77hqs3tci"]
+
+[ext_resource type="PackedScene" uid="uid://c7c16bmd8sy48" path="res://Blender/cloth_store.blend" id="1_mgf5j"]
+
+[node name="cloth_store" unique_id=471195122 instance=ExtResource("1_mgf5j")]

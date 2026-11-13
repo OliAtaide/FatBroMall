@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://cxximqjj7a67c"]
+
+[ext_resource type="PackedScene" uid="uid://dgug1aw6x4ji5" path="res://Blender/l2.blend" id="1_5x62x"]
+
+[node name="l2" unique_id=1797992105 instance=ExtResource("1_5x62x")]
+
+[node name="Cover" parent="." index="2" unique_id=2066804651]
+gi_mode = 0
